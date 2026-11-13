@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         findViewById<TextView>(R.id.tvGithub).setOnClickListener {
-            startActivity(Intent(Intent.ACTION_VIEW, "https://github.com/твой_репозиторий".toUri()))
+            startActivity(Intent(Intent.ACTION_VIEW, "https://github.com/Maxonpunk/Echo".toUri()))
         }
 
         val switchAnim = findViewById<SwitchMaterial>(R.id.switchAnimation)
