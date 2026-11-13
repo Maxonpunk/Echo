@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние при нажатии (нажал - подсветился полупрозрачным белым) -->
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#33FFFFFF" /> <!-- Полупрозрачный белый (20%) -->
+            <stroke android:width="2dp" android:color="#FFFFFF" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+    <!-- Обычное состояние (полностью прозрачный фон, белая рамка) -->
+    <item>
+        <shape>
+            <solid android:color="@android:color/transparent" /> <!-- Убрали черный цвет -->
+            <stroke android:width="2dp" android:color="#FFFFFF" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</selector>
